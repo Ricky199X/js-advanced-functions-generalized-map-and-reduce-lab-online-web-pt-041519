@@ -1,2 +1,4 @@
 // Add your functions here
-function 
+function map() {
+  
+}
