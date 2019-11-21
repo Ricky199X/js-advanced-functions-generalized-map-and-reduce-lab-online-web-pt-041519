@@ -2,3 +2,7 @@
 function map(array, func) {
   return array.map(func)
 }
+
+function reduce(array, startingPoint=0) {
+  
+}
