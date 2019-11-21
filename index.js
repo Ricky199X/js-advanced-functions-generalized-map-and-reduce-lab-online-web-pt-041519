@@ -4,5 +4,7 @@ function map(array, func) {
 }
 
 function reduce(array, startingPoint=0) {
-  return array.reduce((startingPoint, currentVal) => startingPoint += currentVal)
+  const total = array.reduce((startingPoint, currentVal) => startingPoint += currentVal)
+  
+  return total
 }
